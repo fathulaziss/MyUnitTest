@@ -72,14 +72,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void visible() {
+    public void visible() {
         activityMainBinding.btnCalculateVolume.setVisibility(View.VISIBLE);
         activityMainBinding.btnCalculateCircumference.setVisibility(View.VISIBLE);
         activityMainBinding.btnCalculateSurfaceArea.setVisibility(View.VISIBLE);
         activityMainBinding.btnSave.setVisibility(View.GONE);
     }
 
-    private void gone() {
+    public void gone() {
         activityMainBinding.btnCalculateVolume.setVisibility(View.GONE);
         activityMainBinding.btnCalculateCircumference.setVisibility(View.GONE);
         activityMainBinding.btnCalculateSurfaceArea.setVisibility(View.GONE);
